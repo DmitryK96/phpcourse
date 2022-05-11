@@ -43,3 +43,11 @@ print_r('Конечный объем воды после пятого шага '
 
 // 7. Создаем функцию, которая будет выводить на экран изменения, свзанные с переменной
 
+function changeValue($value, $volume)
+{
+return 'Обьем изменился на' . $volume += $value;
+}
+$volume_stakan = change($volume_stakan, 200);
+print_r($volume_stakan);
+$volume_stakan = changeValue($volume_stakan, 200);
+print_r($volume_stakan);
