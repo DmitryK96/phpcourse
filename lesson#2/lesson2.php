@@ -64,3 +64,4 @@ $stakan2 = new Stakan(volume_stakan: 300 , volume: 100 );
 //$stakan2->change($water_count);
 $logger->info('Количество воды изменилось на', $water_count);
 $logger->info('Количество воды в стакане ', $stakan2->volume);
+
